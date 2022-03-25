@@ -1,7 +1,5 @@
 * {
- 
   font-family: 'Andada Pro', serif;
- 
 }
 /* ========Header Section ========= */
 #header {
@@ -17,7 +15,6 @@
     background: #00b4d8;
     overflow-y: auto;
 }
-
 #header .profile img {
     /* margin-top: 50px; */
     margin: 15px auto;
@@ -25,8 +22,6 @@
     width: 180px;
     border:  10px solid #00b4f9;
 }
-
-
 #header .profile h1 {
     font-size: 24px;
     margin: 0;
@@ -36,7 +31,6 @@
     text-align-last: center;
     /* font-family: "Tangerine" ; */
 }
-
 #header .profile .social-links a {
     font-size: 18px;
     display: inline-block;
@@ -49,20 +43,17 @@
     text-align: center;
     width: 36px;
 }
-
 #header .profile .social-links a:hover {
     /* background: #0a2946; */
     background: #ea0099;
     color: #fff;
     text-decoration: none;
 }
-
 #header .profile h1 a, 
 #header .profile h1 a:hover {
     color: #fff;
     text-decoration: none;
 }
-
 #main{
     margin-left: 300px;
 }
@@ -74,11 +65,9 @@
         margin-left: 0;
     }
 }
-
 /* ================== Nav Menu ===================== */
 .nav-menu {
     padding-top: 30px;
-
 }
 .nav-menu * {
     /* margin: 0; */
@@ -86,12 +75,10 @@
     list-style: none;
     margin-left: 12px;
 }
-
 .nav-menu > ul > li {
     position: sticky;
     /* white-space: nowrap; */
 }
-
 .nav-menu a {
     display: flex;
     align-items: center;
@@ -113,13 +100,11 @@
     text-decoration: none;
     color: #fff;
 }
-
 .nav-menu a:hover i, 
 .nav-menu .active > a i,
 .nav-menu li:hover > a i {
     color: #000baa;
 }
-
 /* Mobile Navigation */
 .mobile-nav-toggle {
     position: fixed;
@@ -155,12 +140,9 @@ section {
     padding: 60px 0;
     overflow: hidden;
   }
-  
-  
   .section-title {
     padding-bottom: 30px;
   }
-  
   .section-title h2 {
     font-size: 32px;
     font-weight: bold;
@@ -169,9 +151,7 @@ section {
     position: relative;
     /* color: #173b6c; */
     color: #606060;
-    
   }
-  
   .section-title h2::after {
     content: '';
     position: absolute;
@@ -182,7 +162,6 @@ section {
     bottom: 0;
     left: 0;
   }
-  
   .section-title p {
     margin-bottom: 0;
   }
@@ -190,7 +169,6 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  
   color: #606060;
   font-weight: 2em;
   line-height: 1.8;
@@ -198,7 +176,6 @@ section {
   margin-left: 10px;
   margin-right: 20px;
   text-align: justify;
-  
 }
 .about h2 {
   color: #606060;
@@ -212,69 +189,55 @@ section {
   font-size: larger;
   color: #606060;
 }
-
 .about .content ul {
   list-style: none;
   padding: 0;
 }
-
 .about .content ul li {
   padding-bottom: 10px;
 }
-
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
   color: #149ddd;
 }
-
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
-
 /*--------------------------------------------------------------
 # skills
 --------------------------------------------------------------*/
-
 .skills .skills-content ul {
     list-style: none;
     padding: 0;
   }
-
 .skills .skills-content h3 {
   font-weight: 700;
   font-size: 26px;
   color: #173b6c;
 }
-
 .skills .skills-content ul {
   list-style: none;
   padding: 0;
 }
-
 .skills .skills-content ul li {
   padding-bottom: 10px;
   color: #606060;
   font-size: medium;
 }
-
 .skills .skills-content ul i {
   font-size: 20px;
   padding-right: 2px;
   color: #149ddd;
 }
-
 .skills .skills-content h4 {
     color: #149ddd;
     font-weight: 500;
     padding-bottom: 10px;
 }
-
 .skills .skills-content p:last-child {
   margin-bottom: 0;
 }
-
 /*--------------------------------------------------------------
 # Experiences
 --------------------------------------------------------------*/
@@ -285,24 +248,20 @@ section {
     margin-bottom: 20px;
     color: #149ddd;
   }
-  
   .experiences .experiences-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
     border-left: 2px solid #1f5297;
     position: relative;
   }
-  
   .experiences .experiences-item h4 {
     line-height: 18px;
     font-size: 18px;
     font-weight: 600;
     /* text-transform: uppercase; */
-    
     color: #606060;
     margin-bottom: 10px;
   }
-  
   .experiences .experiences-item h5 {
     font-size: 16px;
     background: #e4edf9;
@@ -311,20 +270,16 @@ section {
     font-weight: 600;
     margin-bottom: 10px;
   }
-  
   .experiences .experiences-item ul {
     padding-left: 20px;
   }
-  
   .experiences .experiences-item ul li {
     padding-bottom: 10px;
     font-size: 16px;
   }
-  
   .experiences .experiences-item:last-child {
     padding-bottom: 0;
   }
-  
   .experiences .experiences-item::before {
     content: "";
     position: absolute;
@@ -335,30 +290,20 @@ section {
     top: 0;
     background: #fff;
     border: 2px solid #1f5297;
-  }
-
-
-  
-  
+  } 
 /*--------------------------------------------------------------
   # Portfolio Details
   --------------------------------------------------------------*/
   .portfolio-details {
     padding-top: 40px;
   }
-  
-  
-
   .portfolio-wrap {
     margin: 15px auto;
     display: block;
     padding: 10px;
     border-radius: 5px;
     border:  0.5px solid #ddd;
-    
-    
   }
-
   .portfolio-title {
     font-size: larger;
     text-align: center;
@@ -368,37 +313,30 @@ section {
     height: 170px;
     width: 300px;
   }
-  
   .portfolio-details .portfolio-info ul {
     list-style: none;
     padding: 0;
     font-size: 15px;
   }
-  
   .portfolio-details .portfolio-info ul li + li {
     margin-top: 10px;
   }
-  
   .portfolio-details .portfolio-description {
     padding-top: 50px;
   }
-  
   .portfolio-details .portfolio-description h2 {
     width: 50%;
     font-size: 26px;
     font-weight: 400;
     margin-bottom: 20px;
   }
-  
   .portfolio-details .portfolio-description p {
     padding: 0;
   }
-  
   .portfolio-links {
     padding-top: 10px;
     text-align: center;
   }
-
   .model_button>a, .code_button>a {
     text-decoration: none;
     color: #149ddd;
@@ -424,7 +362,6 @@ section {
   width: 100%;
   margin-top: 20px;
 }
-
 .achievements_details ul li {
   padding-bottom: 15px;
   padding-left: 15px;
@@ -433,15 +370,12 @@ section {
   font-size: large;
   list-style-type: none;
 }
-
 .achievements_details ul li i {
   font-size: 20px;
   padding-right: 2px;
   color: #149ddd;
 }
-
 @media (max-width: 768px) {
-
   .achievements {
     width: 100%;
     position: static;
@@ -462,18 +396,15 @@ section {
     z-index: 9999;
     background: #00b4d8;
   }
-  
   #footer .copyright {
     text-align: center;
   }
-  
   #footer .credits {
     padding-top: 5px;
     text-align: center;
     font-size: 13px;
     color: #eaebf0;
   }
-  
   @media (max-width: 1199px) {
     #footer {
       position: static;
@@ -481,6 +412,3 @@ section {
       padding-right: 20px 15px;
     }
   }
-  
-
-
