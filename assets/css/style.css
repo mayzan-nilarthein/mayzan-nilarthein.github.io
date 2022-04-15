@@ -297,6 +297,7 @@ section {
   .portfolio-details {
     padding-top: 40px;
   }
+  
   .portfolio-wrap {
     margin: 15px auto;
     display: block;
@@ -307,6 +308,9 @@ section {
   .portfolio-title {
     font-size: larger;
     text-align: center;
+    color: #00b4d8;
+  }
+  .intro-text> span{
     color: #00b4d8;
   }
   .portfolio-wrap>img {
@@ -339,10 +343,16 @@ section {
   }
   .model_button>a, .code_button>a {
     text-decoration: none;
+    border: 1px solid #149ddd;
+    border-radius: 4px;
+    padding: 10px;
     color: #149ddd;
+    
   }
   .model_button>a:hover, .code_button>a:hover {
     color: #fff;
+    border: 1px solid #ea0099;
+    background: #ea0099;
   }
   
   @media (max-width: 768px) {
