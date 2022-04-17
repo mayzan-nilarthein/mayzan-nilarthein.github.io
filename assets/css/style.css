@@ -341,15 +341,16 @@ section {
     padding-top: 10px;
     text-align: center;
   }
-  .model_button>a, .code_button>a {
+  .model_button>a, .code_button>a, .blog_post_button>a {
     text-decoration: none;
     border: 1px solid #149ddd;
     border-radius: 4px;
-    padding: 10px;
     color: #149ddd;
+    padding: 8px;
     
   }
-  .model_button>a:hover, .code_button>a:hover {
+  .model_button>a:hover, .code_button>a:hover, .blog_post_button>a:hover{
+    text-decoration: none;
     color: #fff;
     border: 1px solid #ea0099;
     background: #ea0099;
